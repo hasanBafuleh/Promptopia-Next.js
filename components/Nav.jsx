@@ -38,7 +38,7 @@ const Nav = () => {
         {isUserLoggedIn ? (
           <div className="flex gap-3 md:gap-5">
             <Link href="/creat-prompt" className="black_btn">
-              Creat Post
+              Create Post
             </Link>
             <button type="button" onClick={signOut} className="outline_btn">
               Sign Out
@@ -83,6 +83,35 @@ const Nav = () => {
               alt="profile"
               onClick={() => settoggleDropdown((prev) => !prev)}
             />
+
+            {toggleDropdown && (
+              <div className="dropdown">
+                <Link
+                  href="/profile"
+                  className="dropdown_link"
+                  onClick={() => settoggleDropdown(false)}
+                >
+                  My Profile
+                </Link>
+                <Link
+                  href="/creat-prompt"
+                  className="dropdown_link"
+                  onClick={() => settoggleDropdown(false)}
+                >
+                  Create Prompt
+                </Link>
+                <button
+                  type="button"
+                  onClick={() => {
+                    settoggleDropdown(false);
+                    signOut();
+                  }}
+                  className="mt-5 w-full black_btn"
+                >
+                  Sign Out
+                </button>
+              </div>
+            )}
           </div>
         ) : (
           <>
