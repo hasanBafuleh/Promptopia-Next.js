@@ -7,7 +7,10 @@ import { useRouter } from "next/navigation";
 import Form from "@components/Form";
 
 const CreatePrompt = () => {
-  const [submitting, setsubmitting] = useState(false);
+  const router = useRouter();
+  const { data: session } = useSession();
+
+  const [submitting, setSubmitting] = useState(false);
   const [post, setpost] = useState({
     prompt: "",
     tag: "",
@@ -40,7 +43,7 @@ const CreatePrompt = () => {
     <Form
       type="Create"
       post={post}
-      setPost={post}
+      setPost={setpost}
       submitting={submitting}
       handleSubmit={CreatePrompt}
     />
