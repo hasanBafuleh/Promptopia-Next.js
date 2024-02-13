@@ -9,8 +9,6 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
     <div className="pormpt_card">
       <div className="flex justify-between items-start gap-5">
         <div className="flex-1 flex justify-start items-center gap-3 cursor-pointer">
-          {console.log(post.creator.image)}
-
           <Image
             src={post.creator.image}
             alt={"user_image"}
@@ -19,8 +17,12 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
             className="rounded-full object-contain"
           />
           <div className="flex flex-col">
-            <h3>{post.creator.username}</h3>
-            <p>{post.creator.username}</p>
+            <h3 className="font-satoshi font-semibold text-gray-900">
+              {post.creator.username}
+            </h3>
+            <p className="font-inter text-sm text-gray-500">
+              {post.creator.email}
+            </p>
           </div>
         </div>
       </div>
