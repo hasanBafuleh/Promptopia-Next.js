@@ -1,5 +1,4 @@
 import "@styles/globals.css";
-// import everything
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 export const metadata = {
