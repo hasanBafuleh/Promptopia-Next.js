@@ -1,5 +1,5 @@
 import { Schema, model, models } from "mongoose";
-
+// Schema
 const UserSchema = new Schema({
   email: {
     type: String,
