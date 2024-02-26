@@ -25,17 +25,17 @@ const Feed = () => {
   const [searchTimeout, setSearchTimeout] = useState(null);
   const [searchedResults, setSearchedResults] = useState([]);
 
-  const fetchPosts = async () => {
-    try {
-      const response = await fetch("/api/prompt");
-      const data = await response.json();
-      setAllPosts(data);
-    } catch (error) {
-      console.error("Error fetching posts:", error);
-    }
-  };
-
   useEffect(() => {
+    const fetchPosts = async () => {
+      try {
+        const response = await fetch("/api/prompt");
+        const data = await response.json();
+        setAllPosts(data);
+      } catch (error) {
+        console.error("Error fetching posts:", error);
+      }
+    };
+
     fetchPosts();
   }, []);
 
