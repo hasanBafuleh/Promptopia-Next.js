@@ -7,10 +7,16 @@ export const GET = async (request) => {
 
     const prompts = await Prompt.find({}).populate("creator");
 
-        // Setting Cache-Control header to 'no-store' to prevent caching
-        const headers = new Headers({ 'Cache-Control': 'no-store' });
+    // Set appropriate cache control headers
+    const responseHeaders = {
+      "Content-Type": "application/json",
+      "Cache-Control": "no-store", // This disables caching
+    };
 
-    return new Response(JSON.stringify(prompts), { status: 200 });
+    return new Response(JSON.stringify(prompts), {
+      status: 200,
+      headers: responseHeaders,
+    });
   } catch (error) {
     return new Response("Failed to fetch all prompts", { status: 500 });
   }
