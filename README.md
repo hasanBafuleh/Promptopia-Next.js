@@ -1,5 +1,10 @@
 # Next.js Project
 
+
+
+https://github.com/hasanBafuleh/Promptopia-Next.js/assets/65374422/379013ca-6d31-4897-9a68-bd9cdf2a3261
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Deployed Website
