@@ -1,8 +1,21 @@
+# Next.js Project
+
+
+
+https://github.com/hasanBafuleh/Promptopia-Next.js/assets/65374422/379013ca-6d31-4897-9a68-bd9cdf2a3261
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Deployed Website
+
+Explore the deployed website at [Promptopia](https://promptopia-next-js-phi.vercel.app/).
+
+Welcome to Promptopia, where creativity meets convenience. Sign in with Google to unlock the full potential of my platform. Seamlessly create, read, update, and delete prompts, enhancing your chat experience with dynamic and personalized content. Elevate your interactions with ease on Promptopia.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server locally, use the following command:
 
 ```bash
 npm run dev
@@ -14,7 +27,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+After running the above command, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
@@ -22,15 +36,18 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To delve deeper into Next.js, explore the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For font optimization and usage details, check out the [`next/font` documentation](https://nextjs.org/docs/basic-features/font-optimization).
+
+You can also contribute or provide feedback to the [Next.js GitHub repository](https://github.com/vercel/next.js/).
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
