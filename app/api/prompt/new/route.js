@@ -1,6 +1,6 @@
 import Prompt from "@models/prompt";
 import { connectToDB } from "@utils/database";
-
+// This route for the new posts
 export const POST = async (request) => {
   const { userId, prompt, tag } = await request.json();
 
