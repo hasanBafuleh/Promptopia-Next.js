@@ -10,7 +10,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Explore the deployed website at [Promptopia](https://promptopia-next-js-phi.vercel.app/).
 
-Welcome to Promptopia, where creativity meets convenience. Sign in with Google to unlock the full potential of my platform. Seamlessly create, read, update, and delete prompts, enhancing your chat experience with dynamic and personalized content. Elevate your interactions with ease on Promptopia.
+Welcome to Promptopia, where creativity meets convenience. Sign in with Google to unlock the full potential. Seamlessly create, read, update, and delete prompts, enhancing your chat experience with dynamic and personalized content. Elevate your interactions with ease on Promptopia.
 
 ## Getting Started
 
